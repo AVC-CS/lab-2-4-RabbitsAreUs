@@ -1,12 +1,12 @@
 def main():
 
-    original_str = 'Python Programming'
+    original_str = ['Python', 'Programming']
     ##################################################
     # Complete your code here
     ##################################################
     sub1 = original_str[0]
     sub2 = original_str[1]
-    merged_str = sub1 + sub2
+    merged_str = sub1 + ' ' + sub2
     print(sub2)
     print(sub1)
     print(merged_str)
